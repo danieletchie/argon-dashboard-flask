@@ -96,7 +96,7 @@ body
     text-align: left;
 
     color: #525f7f;
-    background-color: #f8f9fe;
+    background-color: #121836;
 }
 
 [tabindex='-1']:focus:not(:focus-visible)
@@ -23724,7 +23724,7 @@ textarea[resize='horizontal']
 
 .table thead th
 {
-    font-size: .65rem;
+    font-size: 1rem;
 
     padding-top: .75rem;
     padding-bottom: .75rem;
@@ -29837,4 +29837,10 @@ input.datetimepicker[data-color='yellow'] + .bootstrap-datetimepicker-widget.dro
 .bootstrap-datetimepicker-widget.dropdown-black table td .btn[data-action='togglePeriod']
 {
     background: transparent;
+}
+.text-yellow {
+    color: yellowgreen;
+}
+.bg-custom {
+    background-color: rgba(0, 0, 0, 0.6);
 }
